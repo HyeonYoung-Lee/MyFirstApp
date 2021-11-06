@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Assignment</string>
+    <string name="main_ID">회원  ID   </string>
+    <string name="main_PW">비밀번호</string>
+    <string name="main_Login">로그인</string>
+    <string name="main_Join">회원가입</string>
+    <string name="main_GoToGoods">MAIN</string>
+    <string name="join_ID">※ 아이디를 입력하세요</string>
+    <string name="join_PW">※ 비밀번호를 입력하세요</string>
+    <string name="join_CheckOverlap">중복확인</string>
+    <string name="join_tryagain">이미 등록된 아이디입니다! 다시 입력하세요.</string>
+    <string name="join_RestrictionPWLength">8자리 이상~16자리 이하</string>
+    <string name="join_Information">※ 정보를 입력하세요</string>
+    <string name="join_CheckAgreement">개인정보 수집 및 이용에 동의합니다.</string>
+    <string name="join_clausesTitle">※ 개인정보 처리 약관\n</string>
+    <string name="join_clauses">상품 목록 제공 서비스를 제공하기 위해서 등록하신 이름,\n전화번호, 주소등의 개인정보를 수집, 이용하고자 합니다.</string>
+    <string name="join_Complete">가입 완료</string>
+    <string name="goods_register">상품 등록</string>
+    <string name="goods_delete">상품 삭제</string>
+    <string name="goods_info">회원 정보</string>
+    <string name="name_0">[커피디바인]\n콜롬비아 수프리모</string>
+    <string name="name_1">[파란수염]\n에티오피아 예가체프</string>
+    <string name="name_2">[커피대통령]\n브라질 세하도</string>
+    <string name="name_3">[곰곰]\n콜롬비아 블렌드</string>
+    <string name="name_4">[정글인터네셔널]\n과테말라</string>
+
+
+</resources>

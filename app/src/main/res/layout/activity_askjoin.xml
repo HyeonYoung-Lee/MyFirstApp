@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#eeeeee"
+    android:padding="20dp">
+
+    <TextView
+        android:id="@+id/textTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/textedge"
+        android:backgroundTint="@color/white"
+        android:padding="15dp"
+        android:text="회원가입창으로 이동하시겠습니까?"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textTitle"
+        android:layout_centerHorizontal="true"
+        android:text="* 기존에 등록한 상품은 사라집니다 *"
+        android:textAlignment="center"
+        android:textColor="@color/black"/>
+
+    <Button
+        android:id="@+id/btnYes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textTitle"
+        android:layout_alignLeft="@+id/textTitle"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/minibtn"
+        android:paddingLeft="25dp"
+        android:paddingRight="25dp"
+        android:text="    예    "
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/btnNo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textTitle"
+        android:layout_alignRight="@+id/textTitle"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/minibtn"
+        android:paddingLeft="25dp"
+        android:paddingRight="25dp"
+        android:text="아니오"
+        android:textSize="15sp" />
+</RelativeLayout>

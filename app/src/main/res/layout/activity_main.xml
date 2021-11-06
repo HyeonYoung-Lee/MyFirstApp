@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/main_Login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/main_GoToGoods"
+        android:layout_alignLeft="@+id/main_GoToGoods"
+        android:layout_marginBottom="18dp"
+        android:background="@drawable/minibtn"
+        android:text="@string/main_Login"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/main_Join"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/main_GoToGoods"
+        android:layout_alignRight="@+id/main_GoToGoods"
+        android:layout_marginBottom="18dp"
+        android:background="@drawable/minibtn"
+        android:text="@string/main_Join"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/main_ID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/main_GoToGoods"
+        android:layout_alignLeft="@id/main_Login"
+        android:layout_marginBottom="150dp"
+        android:text="@string/main_ID"
+        android:textSize="17dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/main_PW"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/main_GoToGoods"
+        android:layout_alignLeft="@id/main_Login"
+        android:layout_marginBottom="100dp"
+        android:text="@string/main_PW"
+        android:textSize="17dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/main_inputId"
+        android:layout_width="182dp"
+        android:layout_height="40dp"
+        android:layout_above="@id/main_GoToGoods"
+        android:layout_alignRight="@id/main_GoToGoods"
+        android:layout_marginBottom="142dp"/>
+
+
+    <EditText
+        android:id="@+id/main_inputPw"
+        android:layout_width="182dp"
+        android:layout_height="40dp"
+        android:layout_above="@id/main_GoToGoods"
+        android:layout_alignRight="@id/main_GoToGoods"
+        android:layout_marginBottom="92dp"
+        android:ems="10"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/main_GoToGoods"
+        android:layout_width="252dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@drawable/longbtn"
+        android:text="@string/main_GoToGoods"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

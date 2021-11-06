@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:padding="30dp"
+    android:id="@+id/joinActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/join_ID"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/join_ID"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/editTextTextID"
+                android:layout_width="200dp"
+                android:layout_height="30dp"
+                android:paddingTop="0dp" />
+
+            <Button
+                android:id="@+id/join_CheckOverlap"
+                android:layout_width="100dp"
+                android:layout_height="38dp"
+                android:background="@drawable/minibtn"
+                android:text="@string/join_CheckOverlap"
+                android:textColor="#959191"
+                android:textSize="12sp" />
+
+
+
+            <TextView
+                android:id="@+id/join_tryagain"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/join_tryagain"
+                android:textColor="#80FF0000"
+                android:textSize="11dp"
+                android:visibility="invisible" />
+            <CheckBox
+                android:id="@+id/join_checkboxOverlap"
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:text="중복아님"
+                android:textSize="10dp"
+                android:visibility="invisible"/>
+
+            <TextView
+                android:id="@+id/join_PW"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="@string/join_PW"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/editTextTextPassword"
+                android:layout_width="200dp"
+                android:layout_height="30dp"
+                android:inputType="textPassword"
+                android:paddingTop="0dp" />
+
+            <CheckBox
+                android:id="@+id/checbox1"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:clickable="false"
+                android:text="@string/join_RestrictionPWLength"
+                android:textSize="13sp" />
+
+
+
+            <TextView
+                android:id="@+id/join_Information"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="@string/join_Information"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/join_name"
+                android:layout_width="200dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="5dp"
+                android:paddingTop="0dp"
+                android:hint="이름"
+                android:textColor="#8F8F8F"
+                android:textSize="10dp" />
+
+            <EditText
+                android:id="@+id/join_number"
+                android:layout_width="200dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="2dp"
+                android:paddingTop="0dp"
+                android:hint="전화번호 (숫자만)"
+                android:textColor="#8F8F8F"
+                android:textSize="10dp" />
+
+            <EditText
+                android:id="@+id/join_address"
+                android:layout_width="200dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="2dp"
+                android:paddingTop="0dp"
+                android:hint="주소"
+                android:textColor="#8F8F8F"
+                android:textSize="10dp" />
+
+            <TextView
+                android:id="@+id/clauses1"
+                android:layout_width="wrap_content"
+                android:layout_height="23dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/join_clausesTitle"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/clauses2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:text="@string/join_clauses" />
+
+            <RadioButton
+                android:id="@+id/checkAgreement"
+                android:layout_width="346dp"
+                android:layout_height="27dp"
+                android:layout_marginTop="2dp"
+                android:text="@string/join_CheckAgreement"
+                android:clickable="true"/>
+
+            <Button
+                android:id="@+id/join_Complete"
+                android:layout_width="match_parent"
+                android:layout_height="43dp"
+                android:layout_marginTop="5dp"
+                android:text="@string/join_Complete"
+                android:background="@drawable/longbtn"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:textSize="18sp"/>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+</LinearLayout>
